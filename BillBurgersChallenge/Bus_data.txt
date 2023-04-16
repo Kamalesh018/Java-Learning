@@ -1,0 +1,6 @@
+stopList = mapOf("Periar(Complex)" to 18.0,"Tnstc Ho" to 25.0,"Madura Coats" to 13.0,"Railway Station " to 16.0,"Madurai College" to 19.0,"Byepass" to 23.0,"Cross Road" to 10.0,"Melaponnaharam" to 11.0,"Vasantha Nagar" to 21.0,"Kalavasal" to 27.0,"Sethupathi School " to 14.0,"Arapalayam" to 8.0,)
+bus = Bus("C1","Arapalayam","7:30","Kalavasal","8:10",stopList,null,true)
+busDB.child(bus.id!!).setValue(bus)
+stopList = mapOf("Theppakulam" to 12.0,"Pudhur" to 25.0,"Sethupathi" to 19.0,"Mattuthavani" to 0.0,"Surveyor Colony" to 27.0,"Annanagar" to 10.0,"Periar" to 16.0,"Thallakulam" to 24.0,"Poo Market" to 7.0,"Simmakal" to 21.0,"Railway Station" to 18.0,"KK Nagar" to 8.0,"Crime Branch" to 15.0,"Goripalayam" to 22.0,"Therkuvasal" to 13.0,)
+bus = Bus("C4","Mattuthavani","7:00","Surveyor Colony ","8:00",stopList,null,true)
+busDB.child(bus.id!!).setValue(bus)
