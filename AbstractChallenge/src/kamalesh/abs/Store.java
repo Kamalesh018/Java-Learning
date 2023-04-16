@@ -43,6 +43,7 @@ public class Store {
 
     public static void printOrder(ArrayList<OrderItem> order) {
         double salesTotal = 0;
+        // Getting items
         for (var item : order) {
             item.product().printPricedItem(item.qty());
             salesTotal += item.product().getSalesPrice(item.qty());
