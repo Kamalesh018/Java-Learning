@@ -12,10 +12,4 @@ public class Factorial {
             }
             System.out.println("The factorial is " +f);
         }
-
-
-
-        public void kamalesh() {
-
-        }
 }
